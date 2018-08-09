@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const renderToString = require('react-dom/server')
 
 app.get('/', (req , res) => {});
 
