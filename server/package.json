@@ -4,7 +4,7 @@
   "description": "react server side render",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:build:server": "webpack --mode development --config webpack.server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "nodemon": "^1.18.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "webpack": "^4.16.5"
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
   }
 }
